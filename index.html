@@ -42,7 +42,7 @@
 (text-colour:(hsl:0,0,0.4588,0.3))+(bg:black)[没事的……]
 
 (text-colour:(hsl:0,0,0.2196,0.3))+(bg:black)[没事的……]
-(live: 3s)[
+(live: 2s)[
   (goto: &quot;真的吗2&quot;)
 ]
 
@@ -77,7 +77,7 @@
 (enchant:?fadeInText, (css:&quot;transition: color 1s, opacity 1s; color: hsl(0, 80.39%, 50%, 0.3); opacity: 1;&quot;))
 
 (live: 0s)[(enchant:?fadeInText, (css:&quot;opacity: 1;&quot;))]
-(live: 2s)[
+(live: 4s)[
   (goto: &quot;结束1&quot;)
 ]
 
@@ -95,8 +95,12 @@
   (goto: &quot;选项2&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="13" name="选项2" tags="" position="575,400" size="100,100">(text-colour:(hsl:165,0.8692,0.7902,0.3))[[问候早安]]
-(text-colour:(hsl:0,0.8039,0.5,0.3))[[直接去找水晶球]]</tw-passagedata><tw-passagedata pid="14" name="直接去找水晶球" tags="" position="700,350" size="100,100">到底在哪里呢……我记得在柜子上……</tw-passagedata><tw-passagedata pid="15" name="问候早安" tags="" position="700,475" size="100,100">河玟啊……早上好
- (live: 1s)[
+(text-colour:(hsl:0,0.8039,0.5,0.3))[[直接去找水晶球]]</tw-passagedata><tw-passagedata pid="14" name="直接去找水晶球" tags="" position="700,350" size="100,100">到底在哪里呢……我记得在柜子上……
+(live:2s)[
+  (goto: &quot;翻找&quot;)
+]
+</tw-passagedata><tw-passagedata pid="15" name="问候早安" tags="" position="700,475" size="100,100">河玟啊……早上好
+ (live: 2s)[
   (goto: &quot;心理活动1&quot;)
 ]</tw-passagedata><tw-passagedata pid="16" name="心理活动1" tags="" position="800,475" size="100,100">|fadeInText&gt;[（其实我已经很疲惫了……究竟什么时候才能……）]
 
@@ -112,22 +116,22 @@
   (goto: &quot;哥早上好&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="18" name="翻找" tags="" position="800,350" size="100,100">（我把柜子翻了个底朝天，但还是没有找到）
-(live: 1s)[
+(live: 2s)[
   (goto: &quot;但是身后&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="19" name="但是身后" tags="" position="900,350" size="100,100">（也正因为我找的太过于专注……）
-(live: 1s)[
+(live: 2s)[
   (goto: &quot;没注意到&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="20" name="没注意到" tags="" position="1000,350" size="100,100">|fadeInText&gt;[（河玟……在我身后站多久了呢……？）]
 
-(enchant:?fadeInText, (css:&quot;transition: color 1s, opacity 1s; color: hsl(0, 80.39%, 50%, 0.3); opacity: 1;&quot;))
+(enchant:?fadeInText, (css:&quot;transition: color 1s, opacity 1s; color: hsl(0, 80.39%, 50%, 1.0); opacity: 1;&quot;))
 
 (live: 0s)[(enchant:?fadeInText, (css:&quot;opacity: 1;&quot;))]
-(live: 2s)[
+(live: 4s)[
   (goto: &quot;结束2&quot;)
 ]</tw-passagedata><tw-passagedata pid="21" name="哥早上好" tags="" position="1000,475" size="100,100">哥 早上好  你昨晚太累了 我没叫你起床
-(live: 2s)[
+(live: 3s)[
   (goto: &quot;河玟动作1&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="22" name="河玟说话" tags="" position="1200,475" size="100,100">好了哥，我们吃饭吧
@@ -135,7 +139,7 @@
   (goto: &quot;河玟动作2&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="23" name="河玟动作1" tags="" position="1100,475" size="100,100">（河玟翻着锅里的煎鱼，他的技术比以前更好了。）
-(live: 2s)[
+(live: 3s)[
   (goto: &quot;河玟说话&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="24" name="河玟动作2" tags="" position="1300,475" size="100,100">（河玟擦了擦手，像往常那样在我额头落下一吻。）
@@ -157,35 +161,38 @@
 ]
 </tw-passagedata><tw-passagedata pid="28" name="河玟动作6" tags="" position="1650,475" size="100,100">啊……！
 （我下意识向后撤去，一不小心撞倒了刚刚出炉的煎鱼，煎鱼擦过我的手背，我被烫到吃痛出声。）
-(live: 2s)[
+(live: 4s)[
   (goto: &quot;河玟动作7&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="29" name="河玟动作7" tags="" position="1750,475" size="100,100">哥……为什么？
-(live: 1s)[
+(live: 2s)[
   (goto: &quot;河玟动作8&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="30" name="河玟动作8" tags="" position="1825,475" size="100,100">没事！
 （我强装出笑容）
 不好意思啊河玟哥只是刚刚起床还不太清醒……
-(live: 3s)[
+(live: 4s)[
   (goto: &quot;河玟动作9&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="31" name="河玟动作9" tags="" position="1900,475" size="100,100">哥……
 （河玟慢慢向我靠近，我慢慢向后退去……）
-(live: 2s)[
+(live: 3s)[
   (goto: &quot;河玟动作10&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="32" name="河玟动作10" tags="" position="1975,475" size="100,100">哥……没事的……
-(live: 1s)[
+(live: 2s)[
   (goto: &quot;11&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="33" name="11" tags="" position="2050,475" size="100,100">（河玟慢慢逼近，他的声音低沉……闯进我的耳朵）
 (live: 2s)[
   (goto: &quot;12&quot;)
-]</tw-passagedata><tw-passagedata pid="34" name="12" tags="" position="2150,475" size="100,100">(live: 0s)[(enchant:?passage, (css:&quot;background-color: black;&quot;))]
+]</tw-passagedata><tw-passagedata pid="34" name="12" tags="" position="2150,475" size="100,100">(enchant:?passage, (css:&quot;animation: shake 0.5s infinite&quot;))
+
+(live: 0s)[(enchant:?passage, (css:&quot;background-color: black;&quot;))]
 
 (text-colour:red)[（突然，河玟掐住了我的脖子）]
-(live: 2s)[
+
+(live: 3s)[
   (goto: &quot;13&quot;)
 ]
 </tw-passagedata><tw-passagedata pid="35" name="13" tags="" position="2225,475" size="100,100">哥……不要离开我，好吗？嗯？
@@ -202,7 +209,7 @@
 (enchant:?fadeInText, (css:&quot;transition: color 1s, opacity 1s; color: hsl(0, 80.39%, 50%, 0.3); opacity: 1;&quot;))
 
 (live: 0s)[(enchant:?fadeInText, (css:&quot;opacity: 1;&quot;))]
-(live: 2s)[
+(live: 4s)[
   (goto: &quot;结束3&quot;)
 ]</tw-passagedata><tw-passagedata pid="39" name="结束1" tags="" position="975,50" size="100,100">|fadeInText&gt;[【END 1】 -又一次-]
 
